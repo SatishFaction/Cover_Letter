@@ -2,7 +2,7 @@ import streamlit as st
 import openai as ai
 placeholder = st.empty()
 print("** Loading API Key")
-ai.api_key="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"
+ai.api_key="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"
 st.title('GPT-3 Cover Letter Generator')
 st.header('Cover Letter generator')
 def clear_form():
